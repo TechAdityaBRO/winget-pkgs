@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: BROGANG.BroGangCLI
 PackageVersion: 0.1.0
@@ -16,13 +16,12 @@ Description: |-
   write and edit files, search the project and run shell commands with your
   approval. The default provider is a hosted keyless endpoint, so it works on
   first run with zero configuration and no API key.
-Homepage: https://brogangaicli.pages.dev
 Tags:
-  - ai
-  - assistant
-  - cli
-  - coding-agent
-  - llm
-  - terminal
-ManifestType: locale
-ManifestVersion: 1.10.0
+- ai
+- assistant
+- cli
+- coding-agent
+- llm
+- terminal
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
